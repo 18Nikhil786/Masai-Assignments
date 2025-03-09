@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Debugging Task</h1>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+    <p class="text">Fix my position!</p>
+    <style>
+      *
+ {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*I have added box-sizing */
+}
+
+.container 
+{
+  display: flex; /*I have Changed it to  flexbox and added gap*/
+  gap: 10px; 
+  padding: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  border: 1px solid black;
+  /*I have removed margin and position here */
+}
+
+.text {
+  /* I have removed fixed positioning, added margin top ad cenetered */
+  margin-top: 20px; 
+  text-align: center;
+}
+    </style>
+</body>
+</html>

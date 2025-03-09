@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masai Assignment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2>Order List</h2>
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li></ol>
+
+    <style>
+      ol li:first-child {
+  font-weight: bold;
+}
+
+ol li:first-child + li {
+  background: #d3d3d3;
+  padding: 5px;
+}
+
+ol li:nth-child(3) ~ li {
+  font-style: italic;
+  color: #555;
+}
+
+ol li:hover {
+  background: #00274d;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}  </style>
+
+</body>
+</html>
