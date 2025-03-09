@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Project</title>
+    <style>
+        /* I have done the base styling here */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: #204863;
+            padding: 18px;
+            max-width: 850px;
+            margin: 25px auto;
+            font-family: Verdana, sans-serif;
+        }
+
+        /* Here I have done the styling of main sections styling */
+        .section {
+            margin-bottom: 18px;
+            padding: 12px;
+            background-color: hsl(180, 7%, 77%);
+            border-radius: 6px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 6px 12px;
+            display: inline-block;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .section-1 a {
+            color: #34495e;
+        }
+        .section-2 a {
+            color: #1e8449;
+        }
+
+        .section-3 a {
+            color: #6c3483;
+        }
+
+        .section > a {
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+        }
+
+        a:hover {
+            opacity: 0.85;
+            transform: translateY(-3px);
+        }
+
+        a:active {
+            opacity: 0.65;
+            transform: translateY(2px);
+        }
+
+        nav .section a[href^="https"] {
+            color: #c0392b !important; 
+            font-style: italic;
+        }
+
+        /* Below is the code I wrorte for making the website responsive.*/
+        @media (max-width: 600px) {
+            .section {
+                padding: 12px;
+            }
+            a {
+                display: block;
+                margin: 6px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="section section-1">
+            <a href="#">Dashboard</a>
+            <a href="https://external-source.com">External Link</a>
+            <a href="#">Profile</a>
+            <div>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+
+        <div class="section section-2">
+            <a href="#">Portfolio</a>
+            <a href="#">Solutions</a>
+            <a href="https://trusted-site.com">Trusted Site</a>
+            <div>
+                <a href="#">Extra Resources</a>
+            </div>
+        </div>
+
+        <div class="section section-3">
+            <a href="#">Support</a>
+            <a href="#">Articles</a>
+            <a href="#">Help Center</a>
+            <div>
+                <a href="https://nested-link.com">Nested Secure Link</a>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
