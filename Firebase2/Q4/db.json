@@ -1,0 +1,74 @@
+{
+    "books": {
+      "novel1": {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "publishedYear": 1954,
+        "available": true
+      },
+      "novel2": {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "genre": "Romance",
+        "publishedYear": 1813,
+        "available": true
+      },
+      "novel3": {
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "genre": "Science Fiction",
+        "publishedYear": 1979,
+        "available": false
+      },
+      "novel4": {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Classic",
+        "publishedYear": 1960,
+        "available": true
+      },
+      "novel5": {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Classic",
+        "publishedYear": 1925,
+        "available": false
+      },
+      "novel6": {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "genre": "Adventure",
+        "publishedYear": 1851,
+        "available": true
+      },
+      "novel7": {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "genre": "Fantasy",
+        "publishedYear": 1997,
+        "available": true
+      },
+       "novel8": {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Classic",
+        "publishedYear": 1951,
+        "available": false
+      },
+        "novel9": {
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel García Márquez",
+        "genre": "Magical Realism",
+        "publishedYear": 1967,
+        "available": true
+      },
+        "novel10": {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": "Dystopian",
+        "publishedYear": 1932,
+        "available": false
+      }
+    }
+  }
